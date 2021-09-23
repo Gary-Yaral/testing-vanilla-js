@@ -1,3 +1,4 @@
 # testing-vanilla-js
 
-![Preview](https://raw.githubusercontent.com/username/project/master/image-path/image.png)
+![Preview]
+(https://github.com/Gary-Yaral/testing-vanilla-js/blob/master/public/images/preview.png)
