@@ -51,7 +51,7 @@ body.addEventListener('click', (e) => {
 function addProduct(e){
     if(e.target.classList.contains('plus')){      
         let id = parseInt(e.target.parentNode.id)
-        if(wasAdded(products, id) === true){
+        if(wasIncremented(products, id)){
             let parent = e.target.parentNode
             let price = parent.querySelector('.quantity');
             products.forEach(item => {
@@ -68,7 +68,7 @@ function addProduct(e){
 function decrementProductQuantity(e){
     if(e.target.classList.contains('minus')){      
         let id = parseInt(e.target.parentNode.id)
-        if(decrementQuantity(products, id) === true){
+        if(wasDecremented(products, id)){
             let parent = e.target.parentNode
             let price = parent.querySelector('.quantity');
             products.forEach(item => {

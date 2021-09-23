@@ -3,7 +3,7 @@ export function isEmpty(object){
     return false;
 }
 
-export function wasAdded(products, id){
+export function wasIncremented(products, id){
     let wasAdded = false;
     products.forEach(element => {
         if(element.id === id){ 
@@ -16,7 +16,7 @@ export function wasAdded(products, id){
     return wasAdded;
 }
 
-export function decrementQuantity(products, id){
+export function wasDecremented(products, id){
     let wasDecremented = false;
     products.forEach(element => {
         if(element.id === id){ 
