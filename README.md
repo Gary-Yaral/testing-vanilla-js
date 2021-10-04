@@ -1,4 +1,3 @@
 # Testing Javascript Vanilla 
 
-![]
-(public/images/preview.png)
+![](public/images/preview.png)
